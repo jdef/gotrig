@@ -1,0 +1,3 @@
+all:
+	gofmt -s -w .
+	go install ./...
